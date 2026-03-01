@@ -1,0 +1,81 @@
+# 编译输出目录
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# IntelliJ IDEA 配置文件
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse 配置文件
+.settings/
+.project
+.classpath
+bin/
+
+# VS Code 配置文件
+.vscode/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# Maven 本地仓库（如果需要）
+# ~/.m2/repository/
+
+# Gradle 缓存
+.gradle/
+build/
+
+# 覆盖率报告
+jacoco/
+coverage/
+
+# Checkstyle 报告
+checkstyle-result.xml
+
+# PMD 报告
+pmd.xml
+
+# SpotBugs 报告
+spotbugsXml.xml
+
+# 序列化文件
+*.ser
+
+# 环境配置文件（敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 数据库文件
+*.db
+*.sqlite
+*.h2.db
+
+# 编辑器备份文件
+*~
+*.swp
+*.swo
+
+# Node.js 相关（如果项目中有前端部分）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 包管理器锁文件（根据项目需求决定是否忽略）
+# package-lock.json
+# yarn.lock
